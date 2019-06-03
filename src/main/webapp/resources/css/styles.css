@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.sanpham .img {
+	height: 300px;
+	width: 200px;	
+}
+html, body {
+	height: 100%;
+	width:100%;
+}
+.dk-left h1,.dn-right h1 {
+	color: blue;
+	text-align: center;
+}
+
+#from-dn {
+	display:flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/hinhanh/Hinh-nen-phong-cach-don-gian-dep (27).jpg");
+	background-size: cover;
+}
+.txt_nhaplieu {
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 20px;
+	padding-left: 2px;
+	width: 100%;
+}
+/* css đăng nhập*/
+.dn-right {
+	border: 2px solid black;
+	border-radius:8px;
+	margin: 10px;
+	padding: 10px;
+	height: 350px;
+	width:350px;
+}
+.dn-right #frm-dn {
+		width:100%;
+		position: relative;
+		top:65px;
+}
+#btnDangNhap {
+	margin: 10px;
+	height: 50px;
+	width: 120px;
+	position: relative;
+	left:120px;
+	border: 2px solid black;
+	border-radius:8px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: white;
+}
+#btnDangNhap:hover {
+	color: blue;
+}
+/*end đn*/
+
+
+
+/* css đăng ký*/
+.dk-left {
+border: 2px solid black;
+border-radius:8px;
+margin: 10px;
+padding: 10px;
+height: 350px;
+width:350px;
+}
+#btn_dk {
+	margin: 10px;
+	height: 50px;
+	width: 120px;
+	position: relative;
+	left:120px;
+	border: 2px solid black;
+	border-radius:8px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: white;
+}
+#btn_dk:hover {
+	color: blue;
+}
+/*end đn*/
